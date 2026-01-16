@@ -2,13 +2,15 @@
 
 ## Overview
 
-This file contains the updated TaskDetails component that matches the backend response format. The component includes beautiful animations and a responsive design using Tailwind CSS and Framer Motion.
+This file contains the updated TaskDetails component that matches the backend response format. This file contains the updated TaskDetails component that matches the backend response format. The component includes a responsive design using Tailwind CSS.
+
 
 ## Key Changes Made
 
 1. Updated the data handling to work with the direct task object response
 2. Added proper error handling
-3. Enhanced UI with animations and loading states
+3. // Removed enhanced UI with animations and loading states
+
 4. Improved date formatting and null checks
 
 ## Dependencies Required

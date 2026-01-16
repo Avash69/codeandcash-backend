@@ -106,7 +106,8 @@ const sampleTasks = [
   {
     title: "Modern Landing Page Design",
     description:
-      "Create a responsive landing page using Tailwind CSS with modern design principles. Include animations, interactive elements, contact forms, and ensure perfect mobile responsiveness with fast loading times.",
+      "Create a responsive landing page using Tailwind CSS with modern design principles. // Removed animation references for simplification
+",
     company: "DesignCo",
     category: "frontend",
     difficulty: "easy",
