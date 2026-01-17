@@ -1,7 +1,7 @@
 {
-  "name": "code-and-cash-backend",
+  "name": "codexa-backend",
   "version": "1.0.0",
-  "description": "Backend API for Code and Cash application",
+  "description": "Backend API for CodeXa application",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",

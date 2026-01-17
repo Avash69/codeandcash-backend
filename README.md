@@ -1,4 +1,4 @@
-# Code and Cash Backend
+# Codexa Backend
 
 Express.js REST API for task management with MongoDB.
 
@@ -28,7 +28,7 @@ npm run seed:tasks
 
 - `GET /api/tasks` - Get tasks with filtering
 
-# Code and Cash Backend
+# Codexa Backend
 
 Express.js REST API for task management with MongoDB.
 

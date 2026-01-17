@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-This guide provides complete information about the file submission system in the Code and Cash backend. The system allows users to submit work files for accepted task applications.
+This guide provides complete information about the file submission system in the Codexa backend. The system allows users to submit work files for accepted task applications.
 
 ## 🔗 API Endpoints
 

@@ -79,7 +79,7 @@
 // app.get("/", (req, res) => {
 //   res.status(200).json({
 //     status: "success",
-//     message: "Welcome to Code and Cash API",
+//     message: "Welcome to Codexa API",
 //     version: "1.0.0",
 //     environment: config.nodeEnv,
 //   });
@@ -420,7 +420,7 @@ app.get("/health", (req, res) => {
 app.get("/", (req, res) => {
   res.status(200).json({
     status: "success",
-    message: "Welcome to Code and Cash API",
+    message: "Welcome to Codexa API",
     version: "1.0.0",
     environment: config.nodeEnv,
   });

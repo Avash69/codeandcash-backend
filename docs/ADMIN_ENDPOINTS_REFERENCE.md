@@ -1,6 +1,6 @@
 # Admin API Endpoints Reference
 
-This document provides a quick reference of all admin-specific endpoints available in the Code and Cash platform for frontend integration.
+This document provides a quick reference of all admin-specific endpoints available in the Codexa platform for frontend integration.
 
 ## Admin Credentials
 
