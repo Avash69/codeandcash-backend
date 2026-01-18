@@ -11,7 +11,7 @@ const API_BASE_URL = "http://localhost:5002/api";
 
 // Admin credentials
 const adminCredentials = {
-  email: "admin@codeandcash.com",
+  email: "admin@codexa.com",
   password: "admin123456",
 };
 

@@ -7,7 +7,7 @@ This document provides a quick reference of all admin-specific endpoints availab
 A default admin account is created using the script in `scripts/create-admin.js`. The default credentials are:
 
 ```
-Email: admin@codeandcash.com
+Email: admin@codexa.com
 Password: admin123456
 ```
 
@@ -32,7 +32,7 @@ const loginResponse = await fetch("http://localhost:5002/api/auth/login", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({
-    email: "admin@codeandcash.com",
+    email: "admin@codexa.com",
     password: "admin123456",
   }),
 });

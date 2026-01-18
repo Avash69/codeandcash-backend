@@ -4,7 +4,7 @@
 
 ### Admin User (for Admin Panel Testing)
 
-- **Email**: `admin@codeandcash.com`
+- **Email**: `admin@codexa.com`
 - **Password**: `admin123456`
 - **Role**: `admin`
 - **Usage**: Access admin panel, manage users, tasks, and applications

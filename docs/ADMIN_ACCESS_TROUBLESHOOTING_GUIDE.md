@@ -64,7 +64,7 @@ export const login = catchAsync(async (req, res, next) => {
     "user": {
       "id": "6957ef5e9328d2e4e4c1ef84",
       "name": "System Administrator",
-      "email": "admin@codeandcash.com",
+      "email": "admin@codexa.com",
       "role": "admin"
     }
   }
@@ -236,7 +236,7 @@ const adminAuth = (req, res, next) => {
 ### Default Admin User:
 
 ```
-Email: admin@codeandcash.com
+Email: admin@codexa.com
 Password: admin123456
 Role: admin
 ```
@@ -247,7 +247,7 @@ Role: admin
 // Admin user exists in database with:
 {
   _id: "6957ef5e9328d2e4e4c1ef84",    
-  email: "admin@codeandcash.com",
+  email: "admin@codexa.com",
   name: "System Administrator",
   role: "admin",
   createdAt: "2026-01-02T16:16:30.824+00:00"
@@ -263,7 +263,7 @@ Role: admin
 ```bash
 curl -X POST http://localhost:5002/api/auth/login \
   -H "Content-Type: application/json" \
-  -d '{"email": "admin@codeandcash.com", "password": "admin123456"}'
+  -d '{"email": "admin@codexa.com", "password": "admin123456"}'
 ```
 
 **Response:**
@@ -276,8 +276,7 @@ curl -X POST http://localhost:5002/api/auth/login \
     "user": {
       "id": "695bb4ff6112d50653280cc5",
       "name": "System Administrator",
-      "email": "admin@codeandcash.com"
-    }
+      "email": "admin@codexa.com"
   }
 }
 ```
@@ -299,7 +298,7 @@ curl -X GET http://localhost:5002/api/admin/check-access \
     "user": {
       "id": "695bb4ff6112d50653280cc5",
       "name": "System Administrator",
-      "email": "admin@codeandcash.com",
+      "email": "admin@codexa.com",
       "role": "admin"
     }
   }
@@ -321,7 +320,7 @@ curl -X GET http://localhost:5002/api/admin/check-access \
 
 **Frontend Checks:**
 
-1. Verify login credentials: `admin@codeandcash.com` / `admin123456`
+1. Verify login credentials: `admin@codexa.com` / `admin123456`
 2. Check if token is stored in localStorage after login
 3. Verify Authorization header format: `Bearer [token]`
 4. Check if user.role is available in your state management
@@ -380,7 +379,7 @@ if (user && user.role === "admin") {
 
 ### Step 1: Login Flow
 
-- [ ] Correct credentials: `admin@codeandcash.com` / `admin123456`
+- [ ] Correct credentials: `admin@codexa.com` / `admin123456`
 - [ ] Login API call returns success
 - [ ] Token is stored in localStorage
 - [ ] User data contains role field
@@ -412,7 +411,7 @@ if (user && user.role === "admin") {
 ```bash
 curl -X POST http://localhost:5002/api/auth/login \
   -H "Content-Type: application/json" \
-  -d '{"email": "admin@codeandcash.com", "password": "admin123456"}'
+  -d '{"email": "admin@codexa.com", "password": "admin123456"}'
 ```
 
 ### Test Admin Access (Backend):
@@ -429,7 +428,7 @@ node -e "
 import User from './src/models/User.js';
 import connectDB from './src/config/db.js';
 await connectDB();
-const admin = await User.findOne({ email: 'admin@codeandcash.com' });
+const admin = await User.findOne({ email: 'admin@codexa.com' });
 console.log('Admin user:', admin);
 process.exit(0);
 "

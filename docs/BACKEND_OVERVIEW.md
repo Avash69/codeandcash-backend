@@ -233,7 +233,7 @@ File Types:         PDF, DOCX for submissions | JPG, PNG for profiles
 ### Default Admin Account
 
 ```
-Email:    admin@codeandcash.com
+Email:    admin@codexa.com
 Password: admin123456
 Script:   node scripts/create-admin.js
 ```
