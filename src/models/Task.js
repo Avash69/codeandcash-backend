@@ -72,6 +72,13 @@ const taskSchema = new mongoose.Schema(
         maxLength: [200, "Each requirement cannot exceed 200 characters"],
       },
     ],
+    deliverables: [
+      {
+        type: String,
+        trim: true,
+        maxLength: [200, "Each deliverable cannot exceed 200 characters"],
+      },
+    ],
     skills: [
       {
         type: String,
